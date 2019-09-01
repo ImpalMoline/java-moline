@@ -1,0 +1,52 @@
+create table customer
+(   id_cust varchar(50) not null,
+    nama varchar(50),
+    tgl_lahir varchar(30),
+    gender varchar(10),
+    alamat varchar(200),
+    no_telp varchar(14),
+    constraint customer_pk primary key (id_cust)
+);
+
+create table montir
+(   id_mon varchar(50) not null,
+    nama varchar(50),
+    tgl_lahir varchar(30),
+    gender varchar(10),
+    alamat varchar(200),
+    no_telp varchar(14),
+    constraint montir_pk primary key (id_mon)
+);
+
+create table admins
+(   id_adm varchar(50) not null,
+    nama varchar(50),
+    no_telp varchar(14),
+    constraint admin_pk primary key (id_adm)
+);
+
+create table kendaraan
+(   id_kndr varchar(50) not null,
+    merk varchar(30),
+    nama varchar(50),
+    seri varchar(30),
+    jenis varchar(30),
+    kapasitas varchar(14),
+    tahun varchar(4),
+    id_cust varchar(50),
+    constraint kendaraan_pk primary key (id_kndr),
+    constraint kendaraan_fk foreign key (id_cust) references customer(id_cust)on delete cascade
+);
+
+  
+create table memesan
+(   id_psn varchar(50) not null,
+    tgl_psn date,
+    keterangan varchar(500),
+    harga varchar(9),
+    id_cust char(6),
+    id_mon char(6),
+    constraint memesan_pk primary key (id_psn),
+    constraint memesan_fk foreign key (id_cust) references customer (id_cust) on delete cascade,
+    constraint memesan_fk2 foreign key (id_mon) references montir (id_mon) on delete cascade
+);

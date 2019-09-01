@@ -1,0 +1,29 @@
+insert into customer values ('C001','Tukimin','02/03/1976','L','Jl.Sukabirus','087775667388');
+insert into customer values ('C002','Maria','18/05/1956','P','Jl.Sukajadi','085645321555');
+insert into customer values ('C003','Sudiro','01/01/1988','L','Jl.Sukapura','087865421878');
+insert into customer values ('C004','Marwa','09/04/1971','P','Jl.Parijati','089877854345');
+insert into customer values ('C005','Deni','29/07/1969','L','Jl.Radio','081214547789');
+
+insert into kendaraan values ('D1234UY ','Mitshubisi','Xpander','Sport','Minibus','7',2018,'C001');
+insert into kendaraan values ('D1352IK',''Toyota','All New Avanza','G','Minibus','7',2011,'C002');
+insert into kendaraan values ('D1866OL','Toyota','New Innova','V','Biru'.'Minibus','7',2014,'C003');
+insert into kendaraan values ('D1267XS','Nissan','Grand Livina','XV','Minibus','7',2009,'C004');
+insert into kendaraan values ('D1306WV','Daihatsu','All New Xenia','R','Minibus','7',2013,'C005');
+
+insert into memesan values ('P001',12/01/2017,'Mesin bunyi-bunyi',2500000,'C001','M001');
+insert into memesan values ('P002',14/02/2018,'Aki soak','Deni',1000000,'C002','M002');
+insert into memesan values ('P003',01/01/2019,'Busi minta ganti',1450000,'C003','M003');
+insert into memesan values ('P004',17/05/2016,'Tidak mengetahui kerusakan',2700000,'C004','M004');
+insert into memesan values ('P005',20/08/2019,'Mesin tidak menyala',3000000,'C005','M005');
+
+insert into admins values ('A001','Azizah','081289761232');
+insert into admins values ('A002','Afika','085867548900');
+insert into admins values ('A003','Fuadi','081390887634');
+insert into admins values ('A004','Kaila','089877091211');
+insert into admins values ('A005','Ahmad','087754902341');
+
+insert into montir values ('M001','Rudy','15/02/1977','L','Jl.Rugung','089887690752');
+insert into montir values ('M002','Arya','L','30/03/1966'.'Jl.Ayam','088213442356');
+insert into montir values ('M003','Samantha','P','16/04/1971','Jl.Bebek','087866570900');
+insert into montir values ('M004','Ikhsan','12/12/1988','L','Jl.Mawar','087867883421');
+insert into montir values ('M005','Yuni','20/01/1979','P','Jl.Melati','081145324478');
