@@ -1,0 +1,11 @@
+Anggota Kelompok Mo-Line (IFIK-41-03):
+
+- Anhar Abimanyu (1301173721)
+- Farhan Arrahman (1301172737)
+- T. M. Fajar Pramudya (1301172735)
+- Yoan Nur Amalia (1301174673)
+
+
+Link GitHub Kelompok Mo-Line (IFIK-41-03):
+
+https://github.com/ImpalMoline/java-moline
